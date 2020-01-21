@@ -2,3 +2,11 @@
 {
   color: red;
 }
+.imgClass
+{
+  border-style: dotted;
+  border-width: 3px;
+  float: left;
+  margin: 10px 15px 20px 25px;
+  padding: 30px 35px 40px 45px;
+}
