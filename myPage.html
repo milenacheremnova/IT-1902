@@ -2,20 +2,41 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
+  <script src="js.js"></script>
   <title>IT-1902</title>
+  <script>
+    //console.log("test 1")
+    //alert("test 2")
+    function function_1()
+    {
+      let h1Text = document.querySelector("h1").innerHTML
+      if(h1Text.includes("C1.3.52"))
+      {
+        console.log("it works internally")
+      }
+      else
+      {
+        h1Text = "introduction to web (C1.3.52)"
+      }
+      document.querySelector("h1").innerHTML = h1Text
+    }
+  </script>
 </head>
 <body>
 <h1>introduction to web (C1.3.58)</h1>
 <hr>
-<p class="schedule"><h3><a href="#L1">Lesson 1</a></h3><font color = "Red"> on <i>Monday</i> starts at <b>15.00</b> and ends at <b>15.50</b> </p></font>
+<button type="button" onclick="function_1()">button 1</button>
+<button type="button" onclick="function_2()">button 2</button>
 <hr>
-<p class="schedule"><h3>Lesson 2</h3><font color = "Red"> on <i>Tuesday</i> starts at <b>12.00</b> and ends at <b>12.50</b></b> </p></font>
+<h3><a href="#L1">Lesson 1</a></h3><p class="schedule">on <i>Monday</i> starts at <b>15.00</b> and ends at <b>15.50</b> </p>
 <hr>
-<p class="schedule"><h3>Lesson 3</h3><font color = "Red"> on <i>Thursday</i> starts at <b>15.00</b> and ends at <b>15.50</b> </p></font>
+<h3>Lesson 2</h3><p class="schedule">on <i>Tuesday</i> starts at <b>12.00</b> and ends at <b>12.50</b></b> </p>
 <hr>
-<p class="schedule"><h3>Lesson 4</h3><font color = "Red"> on <i>Thursday</i> starts at <b>16.00</b> and ends at <b>16.50</b> </p></font>
+<h3>Lesson 3</h3><p class="schedule">on <i>Thursday</i> starts at <b>15.00</b> and ends at <b>15.50</b> </p>
 <hr>
-<p class="schedule"><h3>Lesson 5</h3><font color = "Red"> on <i>Friday</i> starts at <b>11.00</b> and ends at <b>11.50</b> </p></font>
+<h3>Lesson 4</h3><p class="schedule">on <i>Thursday</i> starts at <b>16.00</b> and ends at <b>16.50</b> </p>
+<hr>
+<h3>Lesson 5</h3><p class="schedule">on <i>Friday</i> starts at <b>11.00</b> and ends at <b>11.50</b> </p>
 <hr><hr>
 <div id="L1">
   <em>Lesson 1</em>
@@ -158,7 +179,7 @@ Farewell to the torrents and loud-pouring floods.
   <h4>welcome to week 3</h4>
   <h1>introduction to web is a course for the first
      and second year students in Astana IT University</h1>
- <h1>introduction to web is a course for the first
+  <h1>introduction to web is a course for the first
     and second year students in Astana&nbspIT&nbspUniversity&copy</h1>
 <p>Donald Knuth:</p>
 <blockquote>
@@ -198,6 +219,20 @@ To summarize: We have seen that computer programming is an art,
   <p>&nbsp</p>
   <p>&nbsp</p>
   <p>&nbsp</p>
+  <p>
+    <img class="imgClass" width="384" height="256" src="2.jpg" alt="Qaiyndy" title="Lake with trees"/>
+    The secret here probably lies in the fact that they are rare victuals travelers; saw not all of Kazakhstan, but only its southern limits bordering great deserts of Central Asia, which then ran the trail of the legendary ancient caravan routes linking the major markets of the West and East.
+    What an incredible contrast not only stun you as extensive as the land itself, a country called Kazakhstan?
+    In a matter of forty or fifty miles from one another towering use Polinsky snowy peaks, very reminiscent of the legendary pyramids of Egypt pharaohs, increased a thousand fold, with no end in sight steppe stretches huge pale yellow ocean.
+    Vast sea of meat — and in the middle of a wonderful silvery lake where white swans swim peacefully and proudly raised his head gravely paces rare beautiful birds — flamingos … This — steppe lake Tengiz, which, according to the scientists, owes its appearance here in ancient times fallen giant meteorite.
+    <br style="clear:both" />
+  </p>
+  <p>
+    <img class="imgClass"  width="384" height="288" src="3.jpg" alt="Marqakol" title="Marqakol Nature Reserve"/>
+    It is a long ride to get to Lake Markakol, and an expensive journey because of the need for permits, but foreigners who make it this far will be rewarded with some of the most spectacular views of the Altai mountains. If you make it to lonely Urunkhayka, the peaceful landscape will wash away the pains of the bumpy ride there.
+    Rare fauna and flora are under threat here, as the reserve does not have the money to fight off Chinese poachers from across the border
+    <br style="clear:both" />
+  </p>
 </div>
 </body>
 </html>
